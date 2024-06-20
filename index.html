@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p id="user"></p>
+      <h1>WHO IS A MILLIONAIRE</h1>
+      <div class="btn-help">
+        <button type="submit" id="btn-skip">Skip the question</button>
+        <button type="submit" id="btn-hide">Hide 2 wrong answers</button>
+      </div>
+
+      <h1 class="question">Question <span id="question-number"></span>:</h1>
+      <h1 id="question-content"></h1>
+
+      <form action="" id="form-answers">
+        <div class="answer-top">
+          <div class="answer-border">
+            <input type="radio" id="answerA" name="answers" />
+            <label for="answerA">A. </label>
+          </div>
+          <div class="answer-border">
+            <input type="radio" id="answerB" name="answers" />
+            <label for="answerB">B. </label>
+          </div>
+        </div>
+        <div class="answer-top">
+          <div class="answer-border">
+            <input type="radio" id="answerC" name="answers" />
+            <label for="answerC">C. </label>
+          </div>
+          <div class="answer-border">
+            <input type="radio" id="answerD" name="answers" />
+            <label for="answerD">D. </label>
+          </div>
+        </div>
+
+        <button type="submit" id="btn-submit">CHECK</button>
+      </form>
+    </div>
+  </body>
+</html>
